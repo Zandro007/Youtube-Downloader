@@ -2,7 +2,7 @@
 
 from pytube import Youtube
 
-#Digite o link do video e o local p/ arquivo
+# Digite o link do video e o local p/ arquivo
 link = input('Digite o link do video: ')
 arquivo = input('Local de armazenamento do arquivo: ')
 yt = Youtube(link)
